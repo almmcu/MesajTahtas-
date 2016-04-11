@@ -34,6 +34,7 @@ namespace WindowsFormsApplication8
 
          private void VeriSil(int id )
          {
+
              Baglanti();
              try
              {

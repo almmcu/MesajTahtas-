@@ -37,6 +37,7 @@ namespace WindowsFormsApplication8
              Baglanti();
              try
              {
+
                  OleDbCommand silSorgusu = new OleDbCommand();
                  silSorgusu.CommandText = "DELETE From MesajTahtasi Where (ID)=" + id + "";
                  silSorgusu.Connection = bağlantıYolu;

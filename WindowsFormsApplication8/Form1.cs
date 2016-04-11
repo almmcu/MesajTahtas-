@@ -35,6 +35,7 @@ namespace WindowsFormsApplication8
          private void VeriSil(int id )
          {
              Baglanti();
+
              try
              {
                  OleDbCommand silSorgusu = new OleDbCommand();
